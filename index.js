@@ -1,9 +1,6 @@
-export class KoreTest {
-    constructor()
-    {
+const KoreTest = {
+    dummyFunction: ()=>{
         console.log("Working")
     }
-    dummyFunction() {
-        console.log("DummyFunctionWorking!!!!")
-    }
 }
+module.exports = KoreTest
